@@ -88,6 +88,27 @@ bool detectCycle(node *&head)
     return false;
 }
 
+// Floyd's Algorithm or Hare and Tortoise Algorithm
+void removeCycle(node *&head)
+{
+    node *slow = head;
+    node *fast = head;
+
+    do
+    {
+        slow = slow->next;
+        fast = fast->next->next;
+    } while (slow != fast);
+
+    fast = head;
+    while (slow->next != fast->next)
+    {
+        slow = slow->next;
+        fast = fast->next;
+    }
+    slow->next = NULL;
+}
+
 int main()
 {
     node *head = NULL;
@@ -100,4 +121,7 @@ int main()
     display(head);
     makeCycle(head, 3);
     cout << detectCycle(head) << endl;
+    removeCycle(head);
+    cout << detectCycle(head) << endl;
+    display(head);
 }
