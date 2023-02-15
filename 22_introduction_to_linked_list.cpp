@@ -13,7 +13,7 @@ class node{
     }
 };
 
-// 
+
 void insertAtHead(node* &head, int val){
     node* n=new node(val);
     //new operator is used to allocate memory in heap

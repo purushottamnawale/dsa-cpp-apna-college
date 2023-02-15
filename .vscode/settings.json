@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.cps": "javascript",
+        "iostream": "cpp",
+        "ostream": "cpp"
+    }
+}
