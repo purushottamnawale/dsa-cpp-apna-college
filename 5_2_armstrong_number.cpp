@@ -1,7 +1,8 @@
 #include<iostream>
 #include<math.h>
-
 using namespace std;
+
+// An Armstrong number is one whose sum of digits raised to the power three equals the number itself.
 
 int main(){
 

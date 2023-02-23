@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+// Binary search algorithm is used in a sorted array.
+
 int binarySearch(int arr[],int n,int key){
     int s=0;
     int e=n;
