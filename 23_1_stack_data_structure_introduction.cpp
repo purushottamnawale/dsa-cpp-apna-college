@@ -2,6 +2,7 @@
 using namespace std;
 
 #define n 100
+// Stack data structure follows LIFO property, which means Last In, First Out.
 
 class stack{
 
