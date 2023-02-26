@@ -27,7 +27,7 @@ void reverse(stack<int> &st){
 }
 
 /*
-Elements temporarily gets saved in Call Stack instead of creating a new stack.
+Elements temporarily gets saved in Call Stack, instead of creating a new stack.
 
 reverse(1234)
     ele=4
