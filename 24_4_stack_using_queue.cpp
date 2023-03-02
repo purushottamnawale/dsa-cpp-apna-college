@@ -5,6 +5,27 @@ using namespace std;
 Two Methods
 1.Making push method costly
 2.Making pop method costly
+
+This program uses 1st one
+
+Adding 4 into the stack
+.123 =>start line
+....
+
+.123 after push into the q2
+...4
+
+..12 after push and pop
+..34
+
+...1 after push and pop
+.234
+
+.... after push and pop
+1234
+
+1234 after swap
+....
 */
 
 class Stack{
