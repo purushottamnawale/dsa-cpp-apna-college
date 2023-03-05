@@ -5,7 +5,7 @@ using namespace std;
 
 int binarySearch(int arr[],int n,int key){
     int s=0;
-    int e=n;
+    int e=n; // e=n-1;
     while(s<=e){
         int mid=(s+e)/2;
 
@@ -21,6 +21,27 @@ int binarySearch(int arr[],int n,int key){
     }
     return -1;
 }
+
+/*
+find 6
+1 2 3 4 5 6
+    s=0
+    e=5
+    mid=2
+    s=3
+    4 5 6
+        s=3
+        e=5
+        mid=4
+        s=5
+        6
+            s=5
+            e=5
+            mid=5
+            returns index
+
+
+*/
 
 int main(){
 
