@@ -4,6 +4,7 @@
 using namespace std;
 
 // Time Complexity is O(L), where L is the length of expression.
+// Prefix Expression Evaluation starts from the begining of expression.
 
 int postfixEvaluation(string s)
 {
@@ -50,3 +51,13 @@ int main()
     cout << postfixEvaluation("46+2/5*7+") << endl;
     return 0;
 }
+
+
+/*
+    Postfix Expression
+    1. Operand Operand Operator
+    2. Preferences are given by BODMAS Rules
+    ((4*2)+3) => 42*3+
+    (5-(6/3)) => 563/-
+
+*/

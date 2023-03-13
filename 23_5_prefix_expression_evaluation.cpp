@@ -3,7 +3,8 @@
 #include<math.h>
 using namespace std;
 
-// Time Complexity is O(L), where L is the length of expression. 
+// Time Complexity is O(L), where L is the length of expression.
+// Prefix Expression Evaluation starts from the end of expression.
 
 int prefixEvaluation(string s){
     stack<int> st;
@@ -48,3 +49,15 @@ int main()
     cout<<prefixEvaluation("-+7*45+20")<<endl;
     return 0;
 }
+
+/*
+    Prefix Expression
+    1. Operator Operand Operand
+    2. Preferences are given by BODMAS Rules
+    ((4*2)+3) <=> +*423
+    (5-(6/3)) <=> -5/63
+
+    ((7+(4*5))-(2+0))<=> -+7*45+20 = 25
+    -(+7*45)(+20)
+
+*/
