@@ -14,6 +14,10 @@ K=3
 [5,3,6] => 6
 [3,6,7] => 7
 
+
+Time Complexity is O(n).
+Input = 8 3 1 3 -1 -3 5 3 6 7
+
 */
 
 
@@ -28,21 +32,6 @@ int main()
         cin>>i;
     }
 
-    multiset<int, greater<int>> s;
-    vector<int> ans;
-    for(int i=0;i<k;i++){
-        s.insert(a[i]);
-    }
-    ans.push_back(*s.begin());
-    for(int i=k;i<n;i++){
-        s.erase(s.lower_bound(a[i-x]));
-        s.insert(a[i]);
-        ans.push_back(*s.begin());
-    }
-
-    for(auto i:ans){
-        cout<<i<<" ";
-    }
 
     deque<int> q;
     vector<int> ans;
