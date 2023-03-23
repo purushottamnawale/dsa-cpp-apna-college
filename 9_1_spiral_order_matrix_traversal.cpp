@@ -38,20 +38,25 @@ int main()
 
 
         //for row_end
-        for(int col=column_end;col>=column_start;col--)
-        {
-            cout<<a[row_end][col]<<" ";
+        if(row_start<=row_end){  // Boundary condition: In the first step, we have increased the rowStart by 1, so there can be a chance that the matrix segment will get reduced to one row i.e. both top and bottom boundaries are the same. So we only print the bottom boundary if(rowStart <= rowEnd).
+            for(int col=column_end;col>=column_start;col--)
+            {
+                cout<<a[row_end][col]<<" ";
+            }
+            row_end--;
         }
-        row_end--;
 
         
         //for column_start
-        for(int row=row_end;row>=row_start;row--)
-        {
-            cout<<a[row][column_start]<<" ";
+        if(column_start<=column_end){  // Boundary condition: In the second step, we have reduced the colEnd by 1, so there can be a chance that the matrix segment will get reduced to one column i.e. both left and right boundaries are the same. So we only print the left boundary if(colStart <= colEnd).
+            for(int row=row_end;row>=row_start;row--)
+            {
+                cout<<a[row][column_start]<<" ";
+            }
+            column_start++;
         }
-        column_start++;
     }
+    
 
 
     return 0;
