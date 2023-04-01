@@ -3,13 +3,13 @@ using namespace std;
 
 void primeSieve(int n)
 {
-    int prime[n+1]={0};
+    int prime[n+1]={0}; // Make an array of zeros and mark all the zeros with one, if the corresponding number is composite. e.g. for 2, mark all the numbers which are multiples of 2
 
-    for(int i=2;i*i<=n;i++)
+    for(int i=2;i*i<=n;i++) // i*i<=n or i<=sqrt(n) is based on the fact that one of the factor of a non-prime number/composite number must be less than or equal to its square root.
     {
         if(prime[i]==0)
         {
-            for(int j=i*i;j<=n;j+=i)
+            for(int j=i*i;j<=n;j+=i) // j=i*i, Because the numbers have already been marked before their squares.
             {
                 prime[j]=1;
             }
