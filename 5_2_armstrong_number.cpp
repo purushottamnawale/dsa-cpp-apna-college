@@ -2,7 +2,8 @@
 #include<math.h>
 using namespace std;
 
-// An Armstrong number is one whose sum of digits raised to the power three equals the number itself.
+// An armstrong number is a number that is equal to the sum of cubes of its digits.
+// 153 => 1+125+27 => 153
 
 int main(){
 
