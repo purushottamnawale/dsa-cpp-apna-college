@@ -24,6 +24,6 @@ This is the code repository of C++ DSA course by Apna College on Youtube.
     1. Greedy
     2. Dynamic programming
     3. Divide-and-conquer
-6. Graph search, 
+6. Graph search
 7. Minimum spanning trees
 8. Shortest paths
