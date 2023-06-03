@@ -34,6 +34,11 @@ int main(){
 
 
     /*
+    Insertion sort is a simple sorting algorithm that works similar to the way you sort 
+    playing cards in your hands. The array is virtually split into a sorted and an unsorted 
+    part. Values from the unsorted part are picked and placed at the correct position in the 
+    sorted part.
+
     12 45 23 51 19 10
     12 45 23 51 19 10 i 1
     12 23 45 51 19 10 i 2

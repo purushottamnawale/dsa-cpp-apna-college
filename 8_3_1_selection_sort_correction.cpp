@@ -21,7 +21,9 @@ void selection_sort(int arr[], int n)
     }
 
     /*
-    Selection sort works by selecting. Select the smallest element from your data and store it to first position. Select smallest data from remaining data set(excluding already considered element), store to next position. It's all about selecting elements according to the need. Hence, Selection sort.
+    Selection sort works by selecting. Select the smallest element from the data and swap it
+    with the first position. Then, select the smallest element from the remaining array
+    (excluding the already considered element) and swap it with the next position.
 
     12 45 23 51 19 10
     10 45 23 51 19 12
