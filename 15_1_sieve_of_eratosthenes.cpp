@@ -4,7 +4,7 @@ using namespace std;
 void primeSieve(int n)
 {
     int prime[n + 1] = {0}; // Make an array of zeros
-    // Mark all the zeros with one, if the corresponding number is composite. e.g. for 2, mark all the numbers which are multiples of 2
+    // Mark all the 0s with 1s, if the corresponding number is composite. e.g. for 2, mark all the numbers which are multiples of 2
 
     for (int i = 2; i * i <= n; i++) // i*i<=n or i<=sqrt(n) is based on the fact that one of the factor of a non-prime number/composite number must be less than or equal to its square root.
     {

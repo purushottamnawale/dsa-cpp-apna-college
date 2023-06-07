@@ -13,19 +13,20 @@ So, Prime factorization of 40 is 40=2*2*2*5, where all the factors are prime.
 
 void primefactor(int n)
 {
-    int spf[n + 1] = {0}; // spf = smallest prime factor
-    for (int i = 2; i <= n; i++)
+    int spf[n + 1] = {0}; // SPF = Smallest Prime Factor
+    
+    for (int i = 2; i <= n; i++) // Marking smallest prime factor for every number to be itself
     {
         spf[i] = i;
     }
 
-    for (int i = 2; i <= n; i++) // Using Sieve, Replace all Numbers from 2 to N, with their Prime Factors
+    for (int i = 2; i*i<= n; i++) // Using Sieve, Replace all Numbers from 2 to N, with their Prime Factors
     {
-        if (spf[i] == i)
+        if (spf[i] == i) // Checking if i is prime
         {
-            for (int j = i * i; j <= n; j += i)
+            for (int j = i * i; j <= n; j += i) // Markin SPF for all numbers divisible by i
             {
-                if (spf[j] == j)
+                if (spf[j] == j) // Marking spf[j] if it not previously marked
                 {
                     spf[j] = i;
                 }
@@ -36,7 +37,7 @@ void primefactor(int n)
     while (n != 1)
     {
         cout << spf[n] << " "; // Printing Prime Factors
-        n = n / spf[n];
+        n = n / spf[n]; // Prime factorization by dividing by smallest prime factor at every step
     }
 }
 
