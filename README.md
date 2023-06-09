@@ -5,14 +5,15 @@ This is the code repository of C++ DSA course by Apna College on Youtube.
 ## Data Structures included: ##
 
 1. Arrays
-2. Stacks
-3. Queues
-4. Linked lists
-5. Recursion
-6. Trees
-7. Binary search trees
-8. Binary heaps
-9. Graphs
+
+3. Stacks
+4. Queues
+5. Linked lists
+6. Recursion
+7. Trees
+8. Binary search trees
+9. Binary heaps
+10. Graphs
 
 
 ## Algorithms included: ##
