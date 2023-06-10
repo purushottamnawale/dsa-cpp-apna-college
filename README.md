@@ -5,7 +5,6 @@ This is the code repository of C++ DSA course by Apna College on Youtube.
 ## Data Structures included: ##
 
 1. Arrays
-
 3. Stacks
 4. Queues
 5. Linked lists
