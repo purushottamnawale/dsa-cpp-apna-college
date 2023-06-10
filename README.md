@@ -7,6 +7,7 @@ This is the code repository of C++ DSA course by Apna College on Youtube.
 1. Arrays
 <p>
 <a href="./8_1_introduction_to_arrays.cpp" target="_blank">8.1 Introduction to Arrays</a>
+<a href="https://www.youtube.com/watch?v=PyTK_g1l8V8&list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ&index=18" target="_blank">YT Introduction to Arrays</a>
 </p>
 3. Stacks
 4. Queues
