@@ -26,7 +26,9 @@ This is the code repository of C++ DSA course by Apna College on Youtube.
 &ensp;&ensp;<a href="/8_2_linear_search.cpp" target="_blank">8.2 Linear Search</a> | <a href="https://youtu.be/13ocRMSJy5M" target="_blank">YouTube</a><br>
 &ensp;&ensp;<a href="/8_2_binary_search.cpp" target="_blank">8.2 Binary Search</a> | <a href="https://youtu.be/13ocRMSJy5M?t=299" target="_blank">YouTube</a><br>
 2.Sorting <br>
-&ensp;&ensp;<a href="/8_3_1_selection_sort.cpp" target="_blank">8.3.1 Selection Sort</a> | <a href="https://youtu.be/13ocRMSJy5M?t=299" target="_blank">YouTube</a><br>
+&ensp;&ensp;<a href="/8_3_1_selection_sort.cpp" target="_blank">8.3.1 Selection Sort</a> | <a href="https://youtu.be/dQa4A2Z0_Ro" target="_blank">YouTube</a> | <a href="/8_3_1_selection_sort_correction.cpp" target="_blank">Correction</a><br>
+&ensp;&ensp;<a href="/8_3_2_bubble_sort.cpp" target="_blank">8.3.1 Bubble Sort</a> | <a href="https://youtu.be/xcPFUCh0jT0" target="_blank">YouTube</a><br>
+&ensp;&ensp;<a href="/8_3_3_insertion_sort.cpp" target="_blank">8.3.1 Insertion Sort</a> | <a href="https://youtu.be/3GC83dh4cf0" target="_blank">YouTube</a><br>
 3.Hashing <br>
 4.Asymptotic worst-case time and space complexity <br>
 5.Algorithm design techniques: <br>
