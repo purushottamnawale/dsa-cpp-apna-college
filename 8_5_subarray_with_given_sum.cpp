@@ -39,7 +39,7 @@ int main()
         while (sum > s)
         {
             sum -= a[i]; 
-            i++; // // Adjust the starting index of subarray if the sum exceeds s
+            i++; // Adjust the starting index of subarray if the sum exceeds s
         }
         if (sum == s)
         {
