@@ -3,12 +3,18 @@
 using namespace std;
 
 /*
+Maximum Sum Subarray - Prefix Sum Technique ()
 Input:
 5
 1 -4 3 2 1
 
 Output:
 6
+
+Explanation:
+The maximum sum subarray is [3, 2, 1] with sum 6.
+
+
 
 */
 
@@ -43,11 +49,11 @@ int main()
         int sum = 0;
         for (int j = 0; j < i; j++)
         {
-            sum = currsum[i] - currsum[j];
+            sum = currsum[i] - currsum[j]; //
             maxSum = max(sum, maxSum);
         }
     }
 
-    cout << maxSum<<endl;
+    cout << maxSum << endl;
     return 0;
 }

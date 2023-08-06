@@ -6,21 +6,22 @@ This is the code repository of C++ DSA course by Apna College on Youtube.
 
 <p>
 1.Arrays <br>
+
 &ensp;&ensp;<a href="/8_1_introduction_to_arrays.cpp" target="_blank">8.1 Introduction to Arrays in C++</a> | <a href="https://youtu.be/PyTK_g1l8V8" target="_blank">YouTube</a> | <a href="https://nbviewer.org/github/purushottamnawale/apnacollege/blob/main/8_1_introduction_to_arrays_in_cpp.pdf" target="_blank">PDF</a><br>
 
 &ensp;&ensp;<a href="/8_1_input_to_array.cpp" target="_blank">8.1 Input to Array</a> | <a href="https://youtu.be/PyTK_g1l8V8?t=355" target="_blank">YouTube</a><br>
 
 &ensp;&ensp;<a href="/8_1_max_min_in_array.cpp" target="_blank">8.1 Maximum and Minimum in Array</a> | <a href="https://youtu.be/PyTK_g1l8V8?t=468" target="_blank">YouTube</a><br>
 
-&ensp;&ensp;<a href="/8_4_array_challenges_max_till_i.cpp" target="_blank">8.4 Array Challenges Maximum till i</a> | <a href="https://youtu.be/eJcBH0xvG98" target="_blank">YouTube</a> | <a href="https://nbviewer.org/github/purushottamnawale/apnacollege/blob/main/8_4_array_challenges_max_till_i.pdf" target="_blank">PDF</a><br>
+&ensp;&ensp;<a href="/8_4_array_challenges_max_till_i.cpp" target="_blank">8.4 Maximum till i</a> | <a href="https://youtu.be/eJcBH0xvG98" target="_blank">YouTube</a> | <a href="https://nbviewer.org/github/purushottamnawale/apnacollege/blob/main/8_4_array_challenges_max_till_i.pdf" target="_blank">PDF</a><br>
 
-&ensp;&ensp;<a href="https://nbviewer.org/github/purushottamnawale/apnacollege/blob/main/8_4_array_challenges_subarray_vs_subsequence.pdf" target="_blank">8.4 Array Challenges Subarray vs Subsequence PDF</a><br>
+&ensp;&ensp;<a href="https://nbviewer.org/github/purushottamnawale/apnacollege/blob/main/8_4_array_challenges_subarray_vs_subsequence.pdf" target="_blank">8.4 Subarray vs Subsequence PDF</a><br>
 
-&ensp;&ensp;<a href="/8_4_array_challenges_sum_of_all_subarrays.cpp" target="_blank">8.4 Array Challenges Sum of all Subarrays</a> | <a href="https://youtu.be/eJcBH0xvG98?t=483" target="_blank">YouTube</a> | <a href="https://nbviewer.org/github/purushottamnawale/apnacollege/blob/main/8_4_array_challenges_sum_of_all_subarrays.pdf" target="_blank">PDF</a><br>
+&ensp;&ensp;<a href="/8_4_array_challenges_sum_of_all_subarrays.cpp" target="_blank">8.4 Sum of all Subarrays</a> | <a href="https://youtu.be/eJcBH0xvG98?t=483" target="_blank">YouTube</a> | <a href="https://nbviewer.org/github/purushottamnawale/apnacollege/blob/main/8_4_array_challenges_sum_of_all_subarrays.pdf" target="_blank">PDF</a><br>
 
-&ensp;&ensp;<a href="/8_4_array_challenges_longest_arithmetic_subarray.cpp" target="_blank">8.4 Array Challenges Longest Arithmetic Subarray</a> | <a href="https://youtu.be/eJcBH0xvG98?t=844" target="_blank">YouTube</a> | <a href="https://nbviewer.org/github/purushottamnawale/apnacollege/blob/main/8_4_array_challenges_subarray_vs_subsequence.pdf" target="_blank">PDF</a><br>
+&ensp;&ensp;<a href="/8_4_array_challenges_longest_arithmetic_subarray.cpp" target="_blank">8.4 Longest Arithmetic Subarray</a> | <a href="https://youtu.be/eJcBH0xvG98?t=844" target="_blank">YouTube</a> | <a href="https://nbviewer.org/github/purushottamnawale/apnacollege/blob/main/8_4_array_challenges_subarray_vs_subsequence.pdf" target="_blank">PDF</a><br>
 
-&ensp;&ensp;<a href="/8_4_array_challenges_record_breaker.cpp" target="_blank">8.4 Array Challenges Record Breaker</a> | <a href="https://youtu.be/eJcBH0xvG98?t=1531" target="_blank">YouTube</a> | <a href="https://nbviewer.org/github/purushottamnawale/apnacollege/blob/main/8_4_array_challenges_record_breaker.pdf" target="_blank">PDF</a><br>
+&ensp;&ensp;<a href="/8_4_array_challenges_record_breaker.cpp" target="_blank">8.4 Record Breaker</a> | <a href="https://youtu.be/eJcBH0xvG98?t=1531" target="_blank">YouTube</a> | <a href="https://nbviewer.org/github/purushottamnawale/apnacollege/blob/main/8_4_array_challenges_record_breaker.pdf" target="_blank">PDF</a><br>
 
 2.Stacks <br>
 3.Queues<br>

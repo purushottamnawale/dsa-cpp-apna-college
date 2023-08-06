@@ -1,47 +1,58 @@
-#include<iostream>
-#include<climits>
+#include <iostream>
+#include <climits>
 using namespace std;
 
-int kadane(int a[],int n)
-{
-    int currentSum=0;
-    int maxSum=INT_MIN;
+/*
+Maximum sum circular subarray - Kadane's Algorithm
 
-    for(int i=0;i<n;i++)
+Input:
+7
+4 -4 6 -6 10 -11 12
+
+Output:
+22
+*/
+
+int kadane(int a[], int n)
+{
+    int currentSum = 0;
+    int maxSum = INT_MIN;
+
+    for (int i = 0; i < n; i++)
     {
-        currentSum+=a[i];
-        if(currentSum<0){
-            currentSum=0;
+        currentSum += a[i];
+        if (currentSum < 0)
+        {
+            currentSum = 0;
         }
-        maxSum=max(maxSum,currentSum);
+        maxSum = max(maxSum, currentSum);
     }
     return maxSum;
 }
 
-
-int main(){
+int main()
+{
     int n;
-    cin>>n;
+    cin >> n;
 
     int a[n];
-    for(int i=0;i<n;i++)
+    for (int i = 0; i < n; i++)
     {
-        cin>>a[i];
+        cin >> a[i];
     }
 
     int nonwrapsum;
-    nonwrapsum=kadane(a,n);
+    nonwrapsum = kadane(a, n);
 
     int wrapsum;
-    int totalsum=0;
-    for(int i=0;i<n;i++)
+    int totalsum = 0;
+    for (int i = 0; i < n; i++)
     {
-        totalsum+=a[i];
-        a[i]=-a[i];
+        totalsum += a[i];
+        a[i] = -a[i];
     }
-    wrapsum=totalsum+kadane(a,n);
+    wrapsum = totalsum + kadane(a, n);
 
-
-    cout<<max(wrapsum,nonwrapsum);
+    cout << max(wrapsum, nonwrapsum);
     return 0;
 }

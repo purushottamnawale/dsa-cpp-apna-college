@@ -8,6 +8,16 @@ Input:
 
 Output:
 2
+
+
+Exaplanation:
+ 0 -9  1  3 -4  5
+
+Marking the positive numbers as 1 in the check array.
+
+ 0  1  2  3  4  5
+ 1  1  0  1  0  1
+
 */
 
 int main()

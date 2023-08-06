@@ -2,6 +2,23 @@
 #include <climits>
 using namespace std;
 
+/*
+Maximum sum subarray - Kadane's Algorithm
+
+Input:
+5
+-1 4 -6 7 -4
+
+
+Output:
+7
+
+Explaination:
+-1  4 -6  7 -4
+-1  4 -2  7  3
+ 0  4  0  7  3
+*/
+
 int main()
 {
     int n;
@@ -26,7 +43,7 @@ int main()
         maxSum = max(maxSum, currentSum);
     }
 
-    cout << maxSum<<endl;
+    cout << maxSum << endl;
 
     return 0;
 }
