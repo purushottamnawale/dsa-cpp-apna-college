@@ -11,6 +11,15 @@ Input:
 
 Output:
 22
+
+
+Explaination:
+Max subarray sum = Total sum of array - Sum of non-contributing elements
+Sum of non-contributing elements = Sum of inverted array
+
+Here, Max subarray sum = 11 - (-11) = 11 + 11 = 22
+
+
 */
 
 int kadane(int a[], int n)
@@ -51,7 +60,7 @@ int main()
         totalsum += a[i];
         a[i] = -a[i];
     }
-    wrapsum = totalsum + kadane(a, n);
+    wrapsum = totalsum + kadane(a, n); // kadane of inverted array removed from the total i.e. totalsum - -kadane(a, n) = totalsum + kadane(a, n)
 
     cout << max(wrapsum, nonwrapsum);
     return 0;
