@@ -3,20 +3,24 @@ using namespace std;
 
 /*
 
-Binary Tree
-Properties of Binary Trees
-1. Maximum nodes at level L = 2 ^ L
-    L = 0, nodes = 1
-    L = 1, nodes = 2
-    L = 2, nodes = 4
+Binary Tree Traversals
+1. Preorder
+    Root
+    Left Subtree
+    Right Subtree
+    1 2 4 5 3 6 7
 
-2. Maximum nodes in a tree of height H is 2 ^ H - 1
-    H = 3, 1 + 2 + 4 = 7 = 2 ^ 3 - 1
+2. Inorder
+    Left Subtree
+    Root
+    Right Subtree
+    4 2 5 1 6 3 7
 
-3. For N nodes, minimum possible height or minimum number of levels are log2(N + 1)
-
-4. A binary tree with L leaves has at least log2(N + 1) + 1 number of levels
-
+3. Postorder
+    Left Subtree
+    Right Subtree
+    Root
+    4 5 2 6 7 3 1
 
      1
    /   \
